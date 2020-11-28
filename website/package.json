@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "GIT_USER=unknjs CURRENT_BRANCH=main docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.2",
+    "docusaurus": "^1.14.6"
+  }
+}
